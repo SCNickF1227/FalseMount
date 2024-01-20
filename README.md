@@ -3,6 +3,8 @@
 ## Overview
 The SMB Share Discovery Tool is a Python-based application designed to discover, mount, and unmount SMB shares on a network. It utilizes the Zeroconf protocol for service discovery and provides a graphical user interface (GUI) built with Tkinter. This tool allows users to scan for SMB servers, list available shares, and manage mount points with ease.
 
+![FalseMount Demo](https://github.com/SCNickF1227/FalseMount/blob/main/2024-01-20_13-33-13.gif)
+
 ## Features
 - Discover SMB servers on the local network.
 - List available shares on discovered servers.
