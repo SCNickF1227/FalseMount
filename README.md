@@ -6,7 +6,7 @@ The SMB Share Discovery Tool is a Python-based application designed to discover,
 ![FalseMount Demo](https://github.com/SCNickF1227/FalseMount/blob/main/2024-01-20_13-33-13.gif)
 
 ## Features
-- Discover SMB servers on the local network.
+- Discover SMB servers on the local network. NOTE: This program leverages mDNS to discover SMB servers on a local subnet. The discovery may not work as intended in more complex network topologies.
 - List available shares on discovered servers.
 - Mount and unmount shares with specified drive letters.
 - View status of mounted shares.
